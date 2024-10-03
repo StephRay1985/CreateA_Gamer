@@ -1,3 +1,7 @@
+# Stephanie Ray
+# Updated 10/3/2024
+# Interactive GUI game. Play, feed and raise a pet
+
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
