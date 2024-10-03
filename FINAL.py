@@ -119,7 +119,14 @@ class RaiseAGamerApp:
     
     def show_instructions(self):
         # Implement instructions display
-        pass
+        instructions = (
+            "Welcome to Raise a Gamer!\n\n"
+            "1. Select a pet and give it a name.\n"
+            "2. Take care of your pet by feeding, playing, cleaning, and taking it to the doctor.\n"
+            "3. Monitor your pet's stats to ensure it stays happy and healthy.\n"
+            "4. Enjoy raising your virtual pet!"
+        )
+        messagebox.showinfo("Instructions", instructions)
     
     def clear_screen(self):
         for widget in self.root.winfo_children():
